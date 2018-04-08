@@ -1,0 +1,480 @@
+2018-04-04 20:33:43,949 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-04 20:34:01,387 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-04 21:27:20,843 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-04 21:32:11,029 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-04 21:35:07,963 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-04 21:40:21,290 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-04 21:47:21,406 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-04 21:48:50,047 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-04 21:57:47,661 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-04 22:04:15,696 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-04 22:13:12,420 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-04 22:14:25,809 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 14:27:24,808 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 16:13:54,261 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 16:16:15,834 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 16:22:29,222 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 16:37:03,953 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 16:39:28,855 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 18:52:20,192 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 18:54:22,297 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 19:09:52,795 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 19:12:36,837 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 19:20:01,702 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 19:29:34,932 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 19:35:42,727 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 19:37:55,128 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 19:43:00,188 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 19:49:54,399 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 20:13:13,632 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 20:19:01,933 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 20:23:50,532 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 20:24:00,410 INFO     Nodes generated: '5' 
+2018-04-05 20:24:03,411 INFO     Nodes generated: '9' 
+2018-04-05 20:26:09,414 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 20:26:19,150 INFO     Nodes generated: '5' 
+2018-04-05 20:26:48,516 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 20:26:57,616 DEBUG    Expanding node for Max for piece position '1,0
+2018-04-05 20:26:57,616 DEBUG    Expanding node for Max for piece position '1,2
+2018-04-05 20:26:57,617 DEBUG    Expanding node for Max for piece position '1,2
+2018-04-05 20:26:57,617 DEBUG    Expanding node for Max for piece position '1,4
+2018-04-05 20:26:57,618 DEBUG    Expanding node for Max for piece position '1,4
+2018-04-05 20:26:57,618 INFO     Nodes generated: '5' 
+2018-04-05 20:27:36,357 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 20:27:45,761 DEBUG    Expanding node for Max for piece position (1,0)
+2018-04-05 20:27:45,762 DEBUG    Expanding node for Max for piece position (1,2)
+2018-04-05 20:27:45,762 DEBUG    Expanding node for Max for piece position (1,2)
+2018-04-05 20:27:45,763 DEBUG    Expanding node for Max for piece position (1,4)
+2018-04-05 20:27:45,763 DEBUG    Expanding node for Max for piece position (1,4)
+2018-04-05 20:27:45,763 INFO     Nodes generated: '5' 
+2018-04-05 20:27:47,967 DEBUG    Expanding node for Max for piece position (1,2)
+2018-04-05 20:27:47,969 DEBUG    Expanding node for Max for piece position (1,2)
+2018-04-05 20:27:47,970 DEBUG    Expanding node for Max for piece position (1,4)
+2018-04-05 20:27:47,970 DEBUG    Expanding node for Max for piece position (1,4)
+2018-04-05 20:27:47,970 INFO     Nodes generated: '9' 
+2018-04-05 20:28:39,351 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 20:28:49,348 INFO     Nodes generated: '5' 
+2018-04-05 20:28:51,954 INFO     Nodes generated: '9' 
+2018-04-05 20:29:13,423 INFO     Nodes generated: '10' 
+2018-04-05 20:29:16,232 INFO     Nodes generated: '14' 
+2018-04-05 20:29:18,233 INFO     Nodes generated: '15' 
+2018-04-05 20:29:21,041 INFO     Nodes generated: '19' 
+2018-04-05 20:29:22,849 INFO     Nodes generated: '21' 
+2018-04-05 20:29:25,254 INFO     Nodes generated: '23' 
+2018-04-05 20:29:27,864 INFO     Nodes generated: '27' 
+2018-04-05 20:29:31,874 INFO     Nodes generated: '28' 
+2018-04-05 20:29:34,888 INFO     Nodes generated: '30' 
+2018-04-05 20:29:45,480 INFO     Nodes generated: '9753' 
+2018-04-05 20:29:49,304 INFO     Nodes generated: '10497' 
+2018-04-05 20:29:53,785 INFO     Nodes generated: '15933' 
+2018-04-05 20:29:58,197 INFO     Nodes generated: '24284' 
+2018-04-05 20:30:08,036 INFO     Nodes generated: '28819' 
+2018-04-05 20:30:30,161 INFO     Nodes generated: '29807' 
+2018-04-05 20:30:32,480 INFO     Nodes generated: '31044' 
+2018-04-05 20:30:35,338 INFO     Nodes generated: '31159' 
+2018-04-05 20:30:38,027 INFO     Nodes generated: '31627' 
+2018-04-05 20:30:55,383 INFO     Nodes generated: '31638' 
+2018-04-05 20:30:58,396 INFO     Nodes generated: '31645' 
+2018-04-05 20:31:00,624 INFO     Nodes generated: '31749' 
+2018-04-05 20:31:03,823 INFO     Nodes generated: '31807' 
+2018-04-05 20:31:06,013 INFO     Nodes generated: '31809' 
+2018-04-05 20:31:14,030 INFO     Nodes generated: '31811' 
+2018-04-05 20:31:19,045 INFO     Nodes generated: '31813' 
+2018-04-05 23:14:35,874 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 23:14:48,382 INFO     Nodes generated: '5' 
+2018-04-05 23:14:51,387 INFO     Nodes generated: '9' 
+2018-04-05 23:15:04,625 INFO     Nodes generated: '10' 
+2018-04-05 23:15:07,636 INFO     Nodes generated: '14' 
+2018-04-05 23:15:11,447 INFO     Nodes generated: '15' 
+2018-04-05 23:15:14,057 INFO     Nodes generated: '19' 
+2018-04-05 23:15:15,864 INFO     Nodes generated: '21' 
+2018-04-05 23:15:18,874 INFO     Nodes generated: '23' 
+2018-04-05 23:15:22,291 INFO     Nodes generated: '27' 
+2018-04-05 23:15:26,505 INFO     Nodes generated: '28' 
+2018-04-05 23:15:33,127 INFO     Nodes generated: '30' 
+2018-04-05 23:16:23,148 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 23:17:14,550 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 23:20:36,202 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 23:22:38,335 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 23:22:47,437 INFO     Nodes generated: '5' 
+2018-04-05 23:22:50,645 INFO     Nodes generated: '6' 
+2018-04-05 23:22:53,454 INFO     Nodes generated: '11' 
+2018-04-05 23:22:55,456 INFO     Nodes generated: '12' 
+2018-04-05 23:22:58,064 INFO     Nodes generated: '18' 
+2018-04-05 23:23:01,072 INFO     Nodes generated: '19' 
+2018-04-05 23:23:03,479 INFO     Nodes generated: '23' 
+2018-04-05 23:23:05,886 INFO     Nodes generated: '28' 
+2018-04-05 23:23:08,495 INFO     Nodes generated: '29' 
+2018-04-05 23:23:11,501 INFO     Nodes generated: '30' 
+2018-04-05 23:23:14,307 INFO     Nodes generated: '33' 
+2018-04-05 23:30:24,391 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 23:30:36,985 INFO     Nodes generated: '5' 
+2018-04-05 23:31:13,707 INFO     Nodes generated: '9' 
+2018-04-05 23:41:33,718 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 23:41:58,294 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 23:50:57,236 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 23:51:50,424 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-05 23:52:16,968 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 00:23:40,089 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 00:24:16,411 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 00:25:12,154 INFO     Nodes generated: '5505' 
+2018-04-06 00:25:21,291 INFO     Nodes generated: '9504' 
+2018-04-06 00:25:25,223 INFO     Nodes generated: '12230' 
+2018-04-06 00:25:27,417 INFO     Nodes generated: '12979' 
+2018-04-06 00:25:31,017 INFO     Nodes generated: '16879' 
+2018-04-06 00:25:33,158 INFO     Nodes generated: '17370' 
+2018-04-06 00:25:36,078 INFO     Nodes generated: '17487' 
+2018-04-06 00:25:38,927 INFO     Nodes generated: '17820' 
+2018-04-06 00:25:41,938 INFO     Nodes generated: '18179' 
+2018-04-06 00:26:08,353 INFO     Nodes generated: '18190' 
+2018-04-06 00:26:10,352 INFO     Nodes generated: '18191' 
+2018-04-06 00:26:20,576 INFO     Nodes generated: '23696' 
+2018-04-06 00:26:47,629 INFO     Nodes generated: '38106' 
+2018-04-06 00:26:56,665 INFO     Nodes generated: '43611' 
+2018-04-06 00:31:05,351 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 00:31:15,321 INFO     Nodes generated: '5' 
+2018-04-06 00:31:33,782 INFO     Nodes generated: '9' 
+2018-04-06 00:31:36,790 INFO     Nodes generated: '10' 
+2018-04-06 00:31:45,198 INFO     Nodes generated: '8155' 
+2018-04-06 00:31:52,239 INFO     Nodes generated: '13660' 
+2018-04-06 00:31:59,046 INFO     Nodes generated: '29527' 
+2018-04-06 00:32:07,294 INFO     Nodes generated: '43898' 
+2018-04-06 00:32:10,756 INFO     Nodes generated: '48752' 
+2018-04-06 00:32:18,889 INFO     Nodes generated: '55451' 
+2018-04-06 00:32:22,742 INFO     Nodes generated: '61328' 
+2018-04-06 00:32:25,390 INFO     Nodes generated: '62297' 
+2018-04-06 00:32:29,103 INFO     Nodes generated: '62645' 
+2018-04-06 00:32:33,835 INFO     Nodes generated: '62686' 
+2018-04-06 00:32:37,238 INFO     Nodes generated: '62688' 
+2018-04-06 00:32:40,041 INFO     Nodes generated: '62688' 
+2018-04-06 00:32:47,880 INFO     Nodes generated: '62712' 
+2018-04-06 00:32:52,288 INFO     Nodes generated: '62736' 
+2018-04-06 00:32:54,686 INFO     Nodes generated: '62745' 
+2018-04-06 00:33:07,538 INFO     Nodes generated: '62768' 
+2018-04-06 00:33:11,744 INFO     Nodes generated: '62781' 
+2018-04-06 00:33:20,172 INFO     Nodes generated: '62796' 
+2018-04-06 00:33:22,777 INFO     Nodes generated: '62798' 
+2018-04-06 00:33:27,994 INFO     Nodes generated: '62803' 
+2018-04-06 00:34:15,130 INFO     Nodes generated: '62817' 
+2018-04-06 00:34:19,138 INFO     Nodes generated: '62831' 
+2018-04-06 00:34:22,552 INFO     Nodes generated: '62850' 
+2018-04-06 00:34:25,355 INFO     Nodes generated: '62854' 
+2018-04-06 00:34:29,370 INFO     Nodes generated: '62863' 
+2018-04-06 00:34:34,392 INFO     Nodes generated: '62874' 
+2018-04-06 00:34:36,994 INFO     Nodes generated: '62882' 
+2018-04-06 00:34:39,200 INFO     Nodes generated: '62883' 
+2018-04-06 00:41:04,139 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 00:41:22,047 INFO     Nodes generated: '5' 
+2018-04-06 00:41:24,257 INFO     Nodes generated: '9' 
+2018-04-06 00:41:27,666 INFO     Nodes generated: '14' 
+2018-04-06 00:41:30,479 INFO     Nodes generated: '15' 
+2018-04-06 00:43:24,635 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 00:46:12,428 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 00:47:16,981 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 00:47:35,347 INFO     Nodes generated: '5' 
+2018-04-06 00:47:37,750 INFO     Nodes generated: '9' 
+2018-04-06 00:47:42,567 INFO     Nodes generated: '28' 
+2018-04-06 00:47:49,181 INFO     Nodes generated: '30' 
+2018-04-06 00:49:07,393 INFO     Nodes generated: '54' 
+2018-04-06 00:49:10,405 INFO     Nodes generated: '78' 
+2018-04-06 00:49:13,006 INFO     Nodes generated: '87' 
+2018-04-06 00:49:18,016 INFO     Nodes generated: '110' 
+2018-04-06 00:49:20,009 INFO     Nodes generated: '112' 
+2018-04-06 00:49:29,222 INFO     Nodes generated: '118' 
+2018-04-06 00:49:33,652 INFO     Nodes generated: '141' 
+2018-04-06 00:49:36,654 INFO     Nodes generated: '156' 
+2018-04-06 00:49:56,117 INFO     Nodes generated: '174' 
+2018-04-06 00:49:58,916 INFO     Nodes generated: '190' 
+2018-04-06 00:50:02,128 INFO     Nodes generated: '202' 
+2018-04-06 00:50:08,340 INFO     Nodes generated: '209' 
+2018-04-06 00:50:17,368 INFO     Nodes generated: '216' 
+2018-04-06 00:50:21,576 INFO     Nodes generated: '222' 
+2018-04-06 00:50:26,201 INFO     Nodes generated: '232' 
+2018-04-06 00:50:29,008 INFO     Nodes generated: '238' 
+2018-04-06 01:04:20,907 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 01:04:42,860 INFO     Nodes generated: '8145' 
+2018-04-06 01:04:56,673 INFO     Nodes generated: '20416' 
+2018-04-06 01:05:06,017 INFO     Nodes generated: '29192' 
+2018-04-06 01:05:15,645 INFO     Nodes generated: '29876' 
+2018-04-06 01:05:21,685 INFO     Nodes generated: '32997' 
+2018-04-06 01:05:26,895 INFO     Nodes generated: '33709' 
+2018-04-06 01:05:30,650 INFO     Nodes generated: '34207' 
+2018-04-06 01:05:36,156 INFO     Nodes generated: '34211' 
+2018-04-06 01:05:39,574 INFO     Nodes generated: '34213' 
+2018-04-06 01:05:42,183 INFO     Nodes generated: '34213' 
+2018-04-06 01:05:57,382 INFO     Nodes generated: '42018' 
+2018-04-06 01:06:03,278 INFO     Nodes generated: '44958' 
+2018-04-06 01:06:10,419 INFO     Nodes generated: '55925' 
+2018-04-06 01:06:14,520 INFO     Nodes generated: '56207' 
+2018-04-06 01:06:18,963 INFO     Nodes generated: '57422' 
+2018-04-06 01:06:23,386 INFO     Nodes generated: '59001' 
+2018-04-06 01:06:30,867 INFO     Nodes generated: '60008' 
+2018-04-06 01:06:37,754 INFO     Nodes generated: '60224' 
+2018-04-06 01:06:44,757 INFO     Nodes generated: '60326' 
+2018-04-06 01:06:51,552 INFO     Nodes generated: '60336' 
+2018-04-06 01:06:55,362 INFO     Nodes generated: '60346' 
+2018-04-06 01:06:59,777 INFO     Nodes generated: '60356' 
+2018-04-06 01:07:02,585 INFO     Nodes generated: '60366' 
+2018-04-06 01:07:06,804 INFO     Nodes generated: '60376' 
+2018-04-06 01:07:09,001 INFO     Nodes generated: '60382' 
+2018-04-06 01:07:11,608 INFO     Nodes generated: '60386' 
+2018-04-06 01:07:14,013 INFO     Nodes generated: '60387' 
+2018-04-06 01:07:58,750 INFO     Nodes generated: '60406' 
+2018-04-06 01:08:01,553 INFO     Nodes generated: '60411' 
+2018-04-06 01:08:04,372 INFO     Nodes generated: '60446' 
+2018-04-06 01:08:06,572 INFO     Nodes generated: '60461' 
+2018-04-06 01:08:08,577 INFO     Nodes generated: '60467' 
+2018-04-06 01:08:11,582 INFO     Nodes generated: '60477' 
+2018-04-06 01:08:14,597 INFO     Nodes generated: '60480' 
+2018-04-06 01:08:17,394 INFO     Nodes generated: '60482' 
+2018-04-06 01:08:20,210 INFO     Nodes generated: '60489' 
+2018-04-06 01:08:22,410 INFO     Nodes generated: '60497' 
+2018-04-06 01:08:25,215 INFO     Nodes generated: '60498' 
+2018-04-06 01:08:32,449 INFO     Nodes generated: '60517' 
+2018-04-06 01:08:34,645 INFO     Nodes generated: '60522' 
+2018-04-06 01:08:39,070 INFO     Nodes generated: '60557' 
+2018-04-06 01:08:41,067 INFO     Nodes generated: '60572' 
+2018-04-06 01:08:47,083 INFO     Nodes generated: '60574' 
+2018-04-06 01:08:58,536 INFO     Nodes generated: '60592' 
+2018-04-06 01:09:02,748 INFO     Nodes generated: '60611' 
+2018-04-06 01:09:09,572 INFO     Nodes generated: '60630' 
+2018-04-06 01:09:13,383 INFO     Nodes generated: '60649' 
+2018-04-06 01:09:16,196 INFO     Nodes generated: '60670' 
+2018-04-06 01:09:22,220 INFO     Nodes generated: '60684' 
+2018-04-06 01:09:26,822 INFO     Nodes generated: '60685' 
+2018-04-06 01:27:33,016 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 01:29:54,337 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 01:32:38,723 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 01:33:47,599 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 01:34:33,626 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 01:36:55,096 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 01:37:33,369 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 01:41:36,206 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 01:41:54,697 INFO     Nodes generated: '8145' 
+2018-04-06 01:52:05,995 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 01:57:37,658 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 01:58:41,574 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 01:59:00,946 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 02:03:48,672 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 02:07:55,315 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 02:08:47,098 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 02:09:43,932 INFO     Nodes generated: '19' 
+2018-04-06 02:11:06,872 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 02:11:19,103 INFO     Nodes generated: '5' 
+2018-04-06 02:11:24,922 INFO     Nodes generated: '9' 
+2018-04-06 02:11:39,570 INFO     Nodes generated: '14' 
+2018-04-06 02:11:43,185 INFO     Nodes generated: '18' 
+2018-04-06 02:12:22,965 INFO     Nodes generated: '9741' 
+2018-04-06 02:12:34,824 INFO     Nodes generated: '9746' 
+2018-04-06 02:12:43,644 INFO     Nodes generated: '9750' 
+2018-04-06 02:12:52,080 INFO     Nodes generated: '9751' 
+2018-04-06 02:13:15,951 INFO     Nodes generated: '9755' 
+2018-04-06 02:13:36,011 INFO     Nodes generated: '9757' 
+2018-04-06 02:14:27,741 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 02:14:38,273 INFO     Nodes generated: '5' 
+2018-04-06 02:15:01,734 INFO     Nodes generated: '9' 
+2018-04-06 02:19:21,021 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 02:19:48,974 INFO     Nodes generated: '5' 
+2018-04-06 02:19:58,049 INFO     Nodes generated: '8150' 
+2018-04-06 02:20:07,880 INFO     Nodes generated: '20421' 
+2018-04-06 02:20:21,544 INFO     Nodes generated: '20440' 
+2018-04-06 02:20:27,159 INFO     Nodes generated: '20464' 
+2018-04-06 02:20:30,965 INFO     Nodes generated: '20467' 
+2018-04-06 02:20:34,380 INFO     Nodes generated: '20479' 
+2018-04-06 02:20:36,784 INFO     Nodes generated: '20485' 
+2018-04-06 02:20:40,002 INFO     Nodes generated: '20511' 
+2018-04-06 02:20:41,800 INFO     Nodes generated: '20516' 
+2018-04-06 02:20:45,007 INFO     Nodes generated: '20520' 
+2018-04-06 02:20:49,213 INFO     Nodes generated: '20523' 
+2018-04-06 02:20:52,023 INFO     Nodes generated: '20524' 
+2018-04-06 12:03:10,665 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 12:03:27,486 INFO     Nodes generated: '5' 
+2018-04-06 12:03:33,096 INFO     Nodes generated: '9' 
+2018-04-06 12:03:41,324 INFO     Nodes generated: '13' 
+2018-04-06 12:03:47,147 INFO     Nodes generated: '16' 
+2018-04-06 12:03:51,554 INFO     Nodes generated: '20' 
+2018-04-06 12:03:56,171 INFO     Nodes generated: '21' 
+2018-04-06 12:04:00,182 INFO     Nodes generated: '22' 
+2018-04-06 12:04:02,993 INFO     Nodes generated: '23' 
+2018-04-06 12:04:07,204 INFO     Nodes generated: '26' 
+2018-04-06 12:04:10,414 INFO     Nodes generated: '27' 
+2018-04-06 12:04:13,428 INFO     Nodes generated: '28' 
+2018-04-06 12:04:23,869 INFO     Nodes generated: '47' 
+2018-04-06 12:04:28,882 INFO     Nodes generated: '49' 
+2018-04-06 12:04:44,543 INFO     Nodes generated: '69' 
+2018-04-06 12:04:51,558 INFO     Nodes generated: '81' 
+2018-04-06 12:04:57,182 INFO     Nodes generated: '87' 
+2018-04-06 12:05:00,596 INFO     Nodes generated: '99' 
+2018-04-06 12:05:09,156 INFO     Nodes generated: '9822' 
+2018-04-06 12:06:02,448 INFO     Nodes generated: '14621' 
+2018-04-06 12:06:14,334 INFO     Nodes generated: '17043' 
+2018-04-06 12:06:18,922 INFO     Nodes generated: '18455' 
+2018-04-06 12:06:22,261 INFO     Nodes generated: '21327' 
+2018-04-06 12:06:29,472 INFO     Nodes generated: '23005' 
+2018-04-06 12:06:36,069 INFO     Nodes generated: '23699' 
+2018-04-06 12:06:44,387 INFO     Nodes generated: '23908' 
+2018-04-06 12:06:51,597 INFO     Nodes generated: '24064' 
+2018-04-06 12:06:56,583 INFO     Nodes generated: '24074' 
+2018-04-06 12:07:04,211 INFO     Nodes generated: '24093' 
+2018-04-06 12:07:08,820 INFO     Nodes generated: '24117' 
+2018-04-06 12:23:42,512 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 12:23:59,389 INFO     Nodes generated: '5' 
+2018-04-06 12:23:59,408 INFO     Nodes generated: '10' 
+2018-04-06 12:24:08,151 INFO     Nodes generated: '11' 
+2018-04-06 12:24:08,170 INFO     Nodes generated: '15' 
+2018-04-06 12:28:42,966 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 12:28:54,985 INFO     Nodes generated: '5' 
+2018-04-06 12:28:55,002 INFO     Nodes generated: '10' 
+2018-04-06 12:29:03,989 INFO     Nodes generated: '14' 
+2018-04-06 12:29:07,403 INFO     Nodes generated: '18' 
+2018-04-06 12:33:51,132 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 12:34:02,366 INFO     Nodes generated: '5' 
+2018-04-06 12:34:25,689 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 12:34:36,052 INFO     Nodes generated: '5' 
+2018-04-06 12:37:22,656 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 12:37:37,945 INFO     Nodes generated: '5' 
+2018-04-06 12:37:40,923 INFO     Nodes generated: '11' 
+2018-04-06 12:37:45,331 INFO     Nodes generated: '16' 
+2018-04-06 12:37:47,929 INFO     Nodes generated: '20' 
+2018-04-06 12:37:50,538 INFO     Nodes generated: '26' 
+2018-04-06 12:37:53,538 INFO     Nodes generated: '27' 
+2018-04-06 12:37:56,545 INFO     Nodes generated: '30' 
+2018-04-06 12:37:58,743 INFO     Nodes generated: '32' 
+2018-04-06 12:38:01,346 INFO     Nodes generated: '36' 
+2018-04-06 12:38:09,163 INFO     Nodes generated: '55' 
+2018-04-06 12:39:32,526 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 12:39:42,692 INFO     Nodes generated: '5' 
+2018-04-06 12:39:44,690 INFO     Nodes generated: '9' 
+2018-04-06 12:39:47,503 INFO     Nodes generated: '10' 
+2018-04-06 12:39:50,510 INFO     Nodes generated: '14' 
+2018-04-06 12:39:52,721 INFO     Nodes generated: '15' 
+2018-04-06 12:39:55,923 INFO     Nodes generated: '16' 
+2018-04-06 12:39:58,332 INFO     Nodes generated: '19' 
+2018-04-06 12:40:00,745 INFO     Nodes generated: '23' 
+2018-04-06 12:40:05,359 INFO     Nodes generated: '24' 
+2018-04-06 12:40:08,370 INFO     Nodes generated: '25' 
+2018-04-06 12:40:11,589 INFO     Nodes generated: '28' 
+2018-04-06 12:41:47,346 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-06 12:42:00,885 INFO     Nodes generated: '5' 
+2018-04-06 12:42:02,888 INFO     Nodes generated: '9' 
+2018-04-06 12:42:08,507 INFO     Nodes generated: '14' 
+2018-04-06 12:42:10,712 INFO     Nodes generated: '18' 
+2018-04-06 12:42:13,119 INFO     Nodes generated: '19' 
+2018-04-06 12:42:20,534 INFO     Nodes generated: '24' 
+2018-04-06 12:42:40,405 INFO     Nodes generated: '25' 
+2018-04-06 12:42:43,405 INFO     Nodes generated: '26' 
+2018-04-06 12:42:52,235 INFO     Nodes generated: '31' 
+2018-04-06 12:42:56,655 INFO     Nodes generated: '36' 
+2018-04-06 12:43:05,287 INFO     Nodes generated: '41' 
+2018-04-06 12:43:09,097 INFO     Nodes generated: '44' 
+2018-04-06 12:43:11,707 INFO     Nodes generated: '47' 
+2018-04-06 12:43:14,718 INFO     Nodes generated: '50' 
+2018-04-07 15:46:48,939 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-07 15:47:15,243 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-07 15:48:54,554 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-07 15:49:56,170 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-07 15:51:58,760 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-07 15:52:10,376 INFO     Nodes generated: '5' 
+2018-04-07 15:52:17,981 INFO     Nodes generated: '6' 
+2018-04-07 15:52:21,594 INFO     Nodes generated: '11' 
+2018-04-07 15:52:30,019 INFO     Nodes generated: '13' 
+2018-04-07 15:52:36,225 INFO     Nodes generated: '18' 
+2018-04-07 15:52:38,233 INFO     Nodes generated: '22' 
+2018-04-07 15:52:41,442 INFO     Nodes generated: '27' 
+2018-04-07 15:54:31,423 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-07 15:54:48,425 INFO     Nodes generated: '5' 
+2018-04-07 15:58:12,932 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-07 15:58:19,819 INFO     Nodes generated: '5' 
+2018-04-07 16:00:20,208 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-07 16:00:27,152 INFO     Nodes generated: '5' 
+2018-04-07 16:01:21,729 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-07 16:05:34,928 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-07 16:06:32,304 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-07 16:06:53,560 INFO     Nodes generated: '5' 
+2018-04-07 16:06:56,199 INFO     Nodes generated: '6' 
+2018-04-07 16:07:00,209 INFO     Nodes generated: '11' 
+2018-04-07 16:07:03,220 INFO     Nodes generated: '13' 
+2018-04-07 16:07:06,034 INFO     Nodes generated: '14' 
+2018-04-07 16:09:16,379 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-07 16:09:28,959 INFO     Nodes generated: '24' 
+2018-04-07 16:10:20,015 INFO     Nodes generated: '29' 
+2018-04-07 16:10:34,430 INFO     Nodes generated: '34' 
+2018-04-07 16:11:07,572 INFO     Nodes generated: '38' 
+2018-04-07 16:12:27,714 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-07 16:12:51,200 INFO     Nodes generated: '5' 
+2018-04-07 16:20:49,556 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-07 16:21:05,219 INFO     Nodes generated: '5' 
+2018-04-07 16:21:21,510 INFO     Nodes generated: '10' 
+2018-04-07 16:21:25,322 INFO     Nodes generated: '11' 
+2018-04-07 16:21:28,132 INFO     Nodes generated: '16' 
+2018-04-07 16:21:30,523 INFO     Nodes generated: '21' 
+2018-04-08 13:23:36,124 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-08 13:23:47,736 INFO     Nodes generated: '5' 
+2018-04-08 13:23:58,398 INFO     Nodes generated: '6' 
+2018-04-08 13:24:07,622 INFO     Nodes generated: '11' 
+2018-04-08 13:24:10,832 INFO     Nodes generated: '13' 
+2018-04-08 13:24:49,960 INFO     Nodes generated: '98345' 
+2018-04-08 13:25:09,571 INFO     Nodes generated: '111441' 
+2018-04-08 13:25:17,557 INFO     Nodes generated: '111465' 
+2018-04-08 13:25:24,418 INFO     Nodes generated: '111497' 
+2018-04-08 13:25:27,817 INFO     Nodes generated: '111505' 
+2018-04-08 13:25:32,468 INFO     Nodes generated: '111524' 
+2018-04-08 13:25:35,067 INFO     Nodes generated: '111529' 
+2018-04-08 13:25:42,100 INFO     Nodes generated: '111566' 
+2018-04-08 13:25:44,498 INFO     Nodes generated: '111582' 
+2018-04-08 13:26:20,398 INFO     Nodes generated: '209914' 
+2018-04-08 13:26:52,541 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-08 13:28:01,944 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-08 13:28:11,463 INFO     Nodes generated: '5' 
+2018-04-08 13:28:24,604 INFO     Nodes generated: '24' 
+2018-04-08 13:28:28,004 INFO     Nodes generated: '56' 
+2018-04-08 13:30:01,099 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-08 13:30:11,704 INFO     Nodes generated: '5' 
+2018-04-08 13:30:16,753 INFO     Nodes generated: '6' 
+2018-04-08 13:30:20,172 INFO     Nodes generated: '11' 
+2018-04-08 13:30:22,577 INFO     Nodes generated: '13' 
+2018-04-08 13:30:35,220 INFO     Nodes generated: '14' 
+2018-04-08 13:31:13,932 INFO     Nodes generated: '98346' 
+2018-04-08 13:31:19,557 INFO     Nodes generated: '116127' 
+2018-04-08 13:32:02,840 INFO     Nodes generated: '214459' 
+2018-04-08 13:32:07,982 INFO     Nodes generated: '228381' 
+2018-04-08 13:32:49,562 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-08 13:34:06,360 INFO     Nodes generated: '5' 
+2018-04-08 13:35:41,011 INFO     Nodes generated: '29' 
+2018-04-08 13:35:47,280 INFO     Nodes generated: '43' 
+2018-04-08 13:37:03,800 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-08 13:37:22,259 INFO     Nodes generated: '12996' 
+2018-04-08 13:37:28,306 INFO     Nodes generated: '19614' 
+2018-04-08 13:37:36,491 INFO     Nodes generated: '32900' 
+2018-04-08 13:37:40,008 INFO     Nodes generated: '33992' 
+2018-04-08 13:37:44,419 INFO     Nodes generated: '38959' 
+2018-04-08 13:37:47,510 INFO     Nodes generated: '40118' 
+2018-04-08 13:37:53,183 INFO     Nodes generated: '41173' 
+2018-04-08 13:37:58,221 INFO     Nodes generated: '41177' 
+2018-04-08 13:38:01,031 INFO     Nodes generated: '41179' 
+2018-04-08 13:38:03,242 INFO     Nodes generated: '41179' 
+2018-04-08 13:38:17,679 INFO     Nodes generated: '54175' 
+2018-04-08 13:38:22,485 INFO     Nodes generated: '60793' 
+2018-04-08 13:38:28,241 INFO     Nodes generated: '60817' 
+2018-04-08 13:38:35,584 INFO     Nodes generated: '73813' 
+2018-04-08 13:38:41,288 INFO     Nodes generated: '73818' 
+2018-04-08 13:38:44,200 INFO     Nodes generated: '73842' 
+2018-04-08 13:38:51,542 INFO     Nodes generated: '86838' 
+2018-04-08 13:39:42,269 INFO     Nodes generated: '94983' 
+2018-04-08 13:39:51,609 INFO     Nodes generated: '107254' 
+2018-04-08 13:42:51,283 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-08 13:43:03,211 INFO     Nodes generated: '5' 
+2018-04-08 13:43:07,461 INFO     Nodes generated: '11' 
+2018-04-08 13:43:09,668 INFO     Nodes generated: '13' 
+2018-04-08 13:44:25,739 INFO     Nodes generated: '5518' 
+2018-04-08 13:46:16,409 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-08 13:46:39,424 INFO     Nodes generated: '19' 
+2018-04-08 13:46:59,458 INFO     Nodes generated: '5524' 
+2018-04-08 13:47:38,969 INFO     Nodes generated: '21391' 
+2018-04-08 13:49:34,195 INFO     Nodes generated: '26896' 
+2018-04-08 13:49:39,567 INFO     Nodes generated: '26915' 
+2018-04-08 13:49:43,162 INFO     Nodes generated: '26920' 
+2018-04-08 13:50:22,924 INFO     Nodes generated: '26957' 
+2018-04-08 13:54:39,303 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
+2018-04-08 13:57:09,990 INFO     Nodes generated: '5' 
+2018-04-08 14:00:12,412 INFO     ----------------------------Welcome into the world of Checkers--------------------------------
