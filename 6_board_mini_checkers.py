@@ -53,7 +53,7 @@ node = 0  # track max nodes generated
 max_prun_cntr = 0  # max prune counter
 min_prun_cntr = 0  # min prune counter
 max_depth = 0  # max_depth traversed
-ai_max_think_time = 3  # max think time for ai to decide the move
+ai_max_think_time = 15  # max think time for ai to decide the move
 time_elapsed = 0
 
 # -- Utility variables
@@ -110,14 +110,14 @@ def draw_piece(row, column, color):
 
     # set color for piece
     if color == 'black':
-        border_color = (255, 255, 255)
-        inner_color = (0, 0, 0)
-    elif color == 'white':
         border_color = (0, 0, 0)
         inner_color = (255, 255, 255)
+    elif color == 'white':
+        border_color = (255, 255, 255)
+        inner_color = (0, 0, 0)
 
     pg.draw.circle(screen, border_color, (posX, posY), 15)  # draw piece border
-    pg.draw.circle(screen, inner_color, (posX, posY), 13)  # draw piece
+    pg.draw.circle(screen, inner_color, (posX, posY), 6)  # draw piece
 
 # drawing buttons for game level
 def draw_button(glevel,w_pos ):
@@ -166,24 +166,31 @@ def init_game(level):  # Initialize game settings
     global black, white
     global turn, ai_playes
 
+    logger.info('..............NEW GAME...........................')
     if level == 1:  # Level 1, 2, 3  easy, medium, difficult respectively
-        white = init_player('human', 'white', randint(1, 4))  # Initialize human player
-        black = init_player('ai', 'black', randint(1, 4))  # Initialize AI player
+        depth = randint(1, 4)
+        white = init_player('human', 'white', depth)  # Initialize human player
+        black = init_player('ai', 'black', depth)  # Initialize AI player
         board = init_board()  # Create board
         turn = 'nil'  # reset the initial values for human or ai first
         ai_playes = 1
+        logger.info('Ply depth set to: %s',depth)
     elif level == 2:
-        white = init_player('human', 'white', randint(5, 8))  # Initialize human player
-        black = init_player('ai', 'black', randint(5, 8))  # Initialize AI player
+        depth = randint(5, 8)
+        white = init_player('human', 'white', depth)  # Initialize human player
+        black = init_player('ai', 'black', depth)  # Initialize AI player
         board = init_board()  # Create board
         turn = 'nil'  # reset the initial values for human or ai first
         ai_playes = 1
+        logger.info('Ply depth set to: %s', depth)
     else:
-        white = init_player('human', 'white', randint(9, 15))  # Initialize human player
-        black = init_player('ai', 'black', randint(9, 15))  # Initialize AI player
+        depth = randint(9, 15)
+        white = init_player('human', 'white', depth)  # Initialize human player
+        black = init_player('ai', 'black', depth)  # Initialize AI player
         board = init_board()  # Create board
         turn = 'nil'  # reset the initial values for human or ai first
         ai_playes = 1
+        logger.info('Ply depth set to: %s', depth)
 
     return board
 
@@ -365,10 +372,11 @@ def ai_play(player):
     alpha = mini_max(player.color, board, 0, -1000, +1000)
 
     logger.info("....Printing game statistics...")
-    logger.info('Total Nodes generated: %s ', node)
+    logger.info('Max Depth Traversed: %s ', max_depth)
+    logger.info('Total Nodes generated: %s ', node + 1) # Total nodes with root node
     logger.info('Total prunes by Max: %s', max_prun_cntr)
     logger.info('Total prunes by Min: %s', min_prun_cntr)
-    logger.info('Max Depth Traversed: %s ', max_depth)
+
 
     if alpha == -1000:  # no more moves available...
         if player.color == white:
@@ -415,7 +423,7 @@ def mini_max(player, board, ply, alpha, beta):
         logger.debug('Calling Max  at ply_depth %s: ', ply)
 
         if time_elapsed >= ai_max_think_time:  # check if time exceeds max permissible search time
-            logger.info(' Search time passed beyond max time %s at Max, backtracking at depth %s... ', time_elapsed,
+            logger.debug(' Search time passed beyond max time %s at Max, backtracking at depth %s... ', time_elapsed,
                         ply)
             return eval_heuristic(board, player)
 
@@ -457,7 +465,7 @@ def mini_max(player, board, ply, alpha, beta):
         logger.debug('Calling Min  at ply_depth %s: ', ply
                      )
         if time_elapsed >= ai_max_think_time:  # check if time exceeds max permissible search time
-            logger.info(' Search time passed beyond max time %s at Min, backtracking at depth %s... ', time_elapsed,
+            logger.debug(' Search time passed beyond max time %s at Min, backtracking at depth %s... ', time_elapsed,
                         ply)
             return eval_heuristic(board, player)
 
@@ -566,7 +574,7 @@ try:
     btn_hard = pg.Rect(210, 400, 25, 25)
 
     pg.draw.rect(screen, [255, 255, 51], btn_easy)  # draw yellow button
-    draw_button('L1', 143)  # Drawing Levels on buttons
+    draw_button('L1', 143)
 
     pg.draw.rect(screen, [51, 255, 51], btn_moderate)  # draw green button
     draw_button('L2', 183)
