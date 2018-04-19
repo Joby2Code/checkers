@@ -32,8 +32,9 @@ font_file = 'fonts/freesansbold.ttf'  # To display characters in font styles
 left = 1  # click left mouse button once
 image_size = (386, 384)
 fps = 5  # framerate of the scene (to save cpu time)
-btn_font = ()   # Font for button text
+btn_font = ()  # Font for button text
 
+# -- Display colors for text, pieces, buttons
 blk_txt = (0, 0, 0)
 yellow = (255, 255, 51)
 green = (51, 255, 51)
@@ -119,15 +120,14 @@ def draw_piece(row, column, color):
     pg.draw.circle(screen, border_color, (posX, posY), 15)  # draw piece border
     pg.draw.circle(screen, inner_color, (posX, posY), 6)  # draw piece
 
-# drawing buttons for game level
-def draw_button(glevel,w_pos ):
 
+# drawing buttons for game level
+def draw_button(glevel, w_pos):
     global btn_font
     textSurface = btn_font.render(glevel, True, blk_txt)
     textRect = textSurface.get_rect()
     textRect.center = (w_pos, 415)
     screen.blit(textSurface, textRect)
-
 
 
 #   ---------- Initialize -----------------#
@@ -174,7 +174,7 @@ def init_game(level):  # Initialize game settings
         board = init_board()  # Create board
         turn = 'nil'  # reset the initial values for human or ai first
         ai_playes = 1
-        logger.info('Ply depth set to: %s',depth)
+        logger.info('Ply depth set to: %s', depth)
     elif level == 2:
         depth = randint(5, 8)
         white = init_player('human', 'white', depth)  # Initialize human player
@@ -373,10 +373,9 @@ def ai_play(player):
 
     logger.info("....Printing game statistics...")
     logger.info('Max Depth Traversed: %s ', max_depth)
-    logger.info('Total Nodes generated: %s ', node + 1) # Total nodes with root node
+    logger.info('Total Nodes generated: %s ', node + 1)  # Total nodes with root node
     logger.info('Total prunes by Max: %s', max_prun_cntr)
     logger.info('Total prunes by Min: %s', min_prun_cntr)
-
 
     if alpha == -1000:  # no more moves available...
         if player.color == white:
@@ -413,7 +412,7 @@ def mini_max(player, board, ply, alpha, beta):
 
     if end[0] == 0 or end[1] == 0:
         logger.debug('.. Search tree terminating for conditions on  end state black %s, white %s', end[0], end[1])
-        score = eval_heuristic(board, player)
+        score = eval_heuristic(board, player) + eval_heuristic_pos(board, player)
         logger.debug('Terminating game with score %s', score)
         return score
 
@@ -424,14 +423,13 @@ def mini_max(player, board, ply, alpha, beta):
 
         if time_elapsed >= ai_max_think_time:  # check if time exceeds max permissible search time
             logger.debug(' Search time passed beyond max time %s at Max, backtracking at depth %s... ', time_elapsed,
-                        ply)
-            return eval_heuristic(board, player)
+                         ply)
+            return eval_heuristic(board, player) + eval_heuristic_pos(board, player)
 
         if ply >= ply_depth:  # Implementing iterative deepening
             logger.debug('Reached depth limit of %s, for Max backtracking starts....', ply)
-            score = eval_heuristic(board, player)
+            score = eval_heuristic(board, player)+ eval_heuristic_pos(board, player)
             return score
-
 
         for i in range(len(moves)):
             logger.debug('AI plays total moves %s in %s', len(moves), player)
@@ -466,8 +464,8 @@ def mini_max(player, board, ply, alpha, beta):
                      )
         if time_elapsed >= ai_max_think_time:  # check if time exceeds max permissible search time
             logger.debug(' Search time passed beyond max time %s at Min, backtracking at depth %s... ', time_elapsed,
-                        ply)
-            return eval_heuristic(board, player)
+                         ply)
+            return eval_heuristic(board, player) + eval_heuristic_pos(board, player)
 
         if ply >= ply_depth:  # Implementing iterative deepening
             logger.debug('Reached depth limit of %s for Min, backtracking starts....', ply)
@@ -514,6 +512,23 @@ def eval_heuristic(board, player):
         return white - black
     else:
         return black - white
+
+# Heuristic to add points to pieces
+def eval_heuristic_pos(board, player):
+    black, white = 0, 0
+
+    for m in range(6):
+        for n in range(6):
+            if board[m][n] != 0 and board[m][n].color == 'black' and m >= 3:
+                black += 200  # count all the black piece
+            elif board[m][n] != 0 and board[m][n].color == 'white' and m <= 2:
+                white += 200  # count all the white pieces
+
+    if player == 'white':
+        return white - black
+    else:
+        return black - white
+
 
 
 # ------------ tracking game scores------------#
@@ -581,7 +596,6 @@ try:
 
     pg.draw.rect(screen, [255, 51, 51], btn_hard)  # draw red button
     draw_button('L3', 223)
-
 
     logger.debug('Pygame successfully initialized! ')
 
