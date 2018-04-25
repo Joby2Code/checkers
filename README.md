@@ -1,6 +1,4 @@
-# checkers
-
-Mini-Checkers
+# Mini-Checkers
 
 Mini-Checkers is developed as a game that is to be played by a human against a computer. The game is played on a game board size of 6 x 6 squares made up of alternating light and dark squares.
 Description:
