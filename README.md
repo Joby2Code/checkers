@@ -12,7 +12,6 @@ Description:
 •	A player wins when he/she captures all of the other player’s pieces. If both players do not have any legal move to take, the game will end and the player with the most number of pieces left wins; if the two players have the same number of pieces left, the game is a draw. 
 
 
-
 Game Mode:
 
 Mini checkers enables the user to play in three game modes configured as buttons with different colors on the GUI.
@@ -25,7 +24,10 @@ In the easy mode, the ply depth as part of the iterative deepening strategy is s
 
 •	Hard (Red) mode:
 In the easy mode, the ply depth as part of the iterative deepening strategy is set to a random value from 9 to 15. 
+
+
 Steps to Play:
+
 •	Start the game. 
 •	Select the game mode in which you would like to play (By default the human plays in easy mode)
 •	Press C on the keyboard if you would like the computer to play first.
