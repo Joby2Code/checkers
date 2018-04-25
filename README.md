@@ -29,7 +29,11 @@ In the easy mode, the ply depth as part of the iterative deepening strategy is s
 Steps to Play:
 
 •	Start the game. 
+
 •	Select the game mode in which you would like to play (By default the human plays in easy mode)
+
 •	Press C on the keyboard if you would like the computer to play first.
+
 •	Press the button at any stage of the game resets the game to corresponding game mode.
+
 •	Start playing. Have fun….
