@@ -1,7 +1,9 @@
 # Mini-Checkers
 
 Mini-Checkers is developed as a game that is to be played by a human against a computer. The game is played on a game board size of 6 x 6 squares made up of alternating light and dark squares.
+
 Description:
+
 •	Each player starts out with six playing pieces, with the white pieces for the human and the black pieces for the computer. Note that all the pieces are placed on dark squares. 
 •	At the start of the game, the human player can choose to move first or second. 
 •	Each player takes turn to make a move. There are two types of moves: regular moves and capture moves.
@@ -37,3 +39,4 @@ Steps to Play:
 •	Press the button at any stage of the game resets the game to corresponding game mode.
 
 •	Start playing. Have fun….
+
