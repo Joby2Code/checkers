@@ -1,4 +1,9 @@
 '''
+---------------------------------------------
+Joby Joy
+jj2196@nyu.edu
+CS 6613, Artificial Intelligence
+----------------------------------------------
 Mini checkers application is built using a 6x6 board.
 Mini checkers does not consider the piece as a king.
 The win state is determined by  number of pieces that remains towards the end state of the game.
@@ -31,7 +36,7 @@ background_image = 'board_brown_6x6.png'  # name of the 6x6 png file
 font_file = 'fonts/freesansbold.ttf'  # To display characters in font styles
 left = 1  # click left mouse button once
 image_size = (386, 384)
-fps = 5  # framerate of the scene (to save cpu time)
+fps = 5  # framerate of the scene
 btn_font = ()  # Font for button text
 
 # -- Display colors for text, pieces, buttons
@@ -213,10 +218,13 @@ def mouse_click(pos):
         if column < 0 or column > 5:
             return
 
+        moves = possible_moves(board, turn)
         if board[row][column] != 0 and board[row][column].color == turn:
             selected = row, column  # select a piece to play
+            if len(moves) == 0:  # Forfeit the human move if there are no moves to play
+                switch_turn()
         else:
-            moves = possible_moves(board, turn)
+            moves = possible_moves(board, turn) # move the piece to the position selected
             for i in range(len(moves)):
                 if selected[0] == moves[i][0] and selected[1] == moves[i][1]:
                     if row == moves[i][2] and column == moves[i][3]:
@@ -318,7 +326,8 @@ def is_regular_move(src, dest, board):
         return False
 
     # check does destination has a piece already
-    if board[dest[0]][dest[1]] != 0: return False
+    if board[dest[0]][dest[1]] != 0:
+        return False
 
     # for white piece
     if board[src[0]][src[1]].color == 'white':
@@ -341,7 +350,7 @@ def make_move(a, b, board):
 
 # end or switch turn
 def switch_turn():
-    global turn  # use global variables
+    global turn
 
     if turn != 'black':
         turn = 'black'
@@ -350,6 +359,16 @@ def switch_turn():
 
 
 # ------------ AI ----------------------#
+
+
+# This resets all the counter variables
+def reinitialize_counter():
+    global node, max_depth, max_prun_cntr, min_prun_cntr
+    node = 0
+    max_depth = 0
+    max_prun_cntr = 0
+    min_prun_cntr = 0
+
 
 # ai makes the turn..
 def ai_play(player):
@@ -385,6 +404,8 @@ def ai_play(player):
 
     logger.debug('Best move selected by CPU from :%s, to %s', best_move[0], best_move[1])
     make_move(best_move[0], best_move[1], board)  # make the move on board
+
+    reinitialize_counter();
 
     switch_turn()  # end turn
 
@@ -428,7 +449,7 @@ def mini_max(player, board, ply, alpha, beta):
 
         if ply >= ply_depth:  # Implementing iterative deepening
             logger.debug('Reached depth limit of %s, for Max backtracking starts....', ply)
-            score = eval_heuristic(board, player)+ eval_heuristic_pos(board, player)
+            score = eval_heuristic(board, player) + eval_heuristic_pos(board, player)
             return score
 
         for i in range(len(moves)):
@@ -513,7 +534,8 @@ def eval_heuristic(board, player):
     else:
         return black - white
 
-# Heuristic to add points to pieces
+
+# Heuristic to add points to pieces based on its current position
 def eval_heuristic_pos(board, player):
     black, white = 0, 0
 
@@ -528,7 +550,6 @@ def eval_heuristic_pos(board, player):
         return white - black
     else:
         return black - white
-
 
 
 # ------------ tracking game scores------------#
